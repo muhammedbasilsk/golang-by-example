@@ -8,5 +8,8 @@ import (
 func main() {
 	fmt.Println(runtime.GOOS)
 	fmt.Println(runtime.GOARCH)
-	fmt.Printf("%v, %T",  runtime.GOOS, runtime.GOOS)
+
+	n := 42
+
+	fmt.Printf("%d \n %b \n %#x\n", n, n, n)
 }
